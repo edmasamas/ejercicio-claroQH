@@ -1,0 +1,815 @@
+/*Inicio header*/
+
+header .navbar.bg-claro-menu .container { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+} 
+
+header .navbar .container {
+    display: flex;
+    }
+
+header img {
+    margin-right: 15px;
+}
+header a {
+    margin-right: 10px;
+} 
+.navbar-brand {
+    padding-bottom: 0;
+}
+.bg-claro-busqueda .form-control {
+    width: 300px;
+}
+
+header .bg-claro-busqueda{
+    background: red;
+   
+}
+
+header .navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header .form-inline{
+    display: flex;
+    align-items: center;
+}
+
+header .form-control{
+    position: relative;
+    width: 90%;
+    height: 20px;
+    padding: 20px;
+    
+} 
+
+/* CONSULTAS */
+.navbar .navbar-light .bg-consultas{
+    background: gray;
+}
+element.style {
+    background: rgba(168, 167, 167, 0.671);
+}
+
+#consultas .row h5 {
+    font-size: 15px;
+   
+}
+.row {
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.consultas2 .row img {
+    float: left;
+    max-width: 20%;
+}
+
+.consultas2 .row p {
+    text-align: right;
+}
+
+.nav-consultas img {
+    max-width: 25%;
+    padding-top: 9px;
+    float: left;
+}
+
+
+/*Fin header*/
+
+
+/*Celulares*/
+.mb-3 {
+    background: rgba(104, 102, 102, 0.109);
+}
+
+#celulares .row no-gutters img {
+    float: right;
+    max-width: 100%;
+}
+#celulares .row .col-md-6 {
+    float: left;
+    
+}
+#celulares p {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    
+}
+#celulares  h2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+#celulares  .text-muted {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}
+ #celulares .card-body {
+   box-shadow: 0.5px 0.5px blue;
+   text-align: center;
+   color: #ffffff;
+   background: rgba(24, 95, 187, 0.521);
+   padding: 10px;
+   border-radius: 10px;
+   margin: 10px;
+ }
+
+ .card-img, .card-img-top {
+    border-top-left-radius: calc(.30rem - 1px);
+    border-top-right-radius: calc(.30rem - 1px);
+    width: 100%;}
+
+    #celulares .row p {
+        font-size: 18px;
+    }
+/*Tecnologia*/
+.mb-3 {
+    background: rgba(104, 102, 102, 0.109);
+}
+
+#tecnologia .row p{
+    font-size: 14px;
+}
+#tecnologia .row no-gutters img {
+    float: right;
+    max-width: 100%;
+}
+#tecnologia .row .col-md-6 {
+    float: left;
+    
+}
+#tecnologia  p {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    
+}
+#tecnologia  h2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+#tecnologia  .text-muted {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}
+ #tecnologia .card-body {
+   box-shadow: 0.5px 0.5px blue;
+   text-align: center;
+   color: #ffffff;
+   background: rgba(221, 53, 11, 0.534);
+   padding: 10px;
+   border-radius: 10px;
+   margin: 10px;
+ }
+
+ .card-img, .card-img-top {
+    border-top-left-radius: calc(.30rem - 1px);
+    border-top-right-radius: calc(.30rem - 1px);
+    width: 100%;}
+
+    #tecnologia .row p {
+        font-size: 18px;
+    }
+
+/* Personas */
+#personas h4 {
+    background: rgba(128, 128, 128, 0.486);
+}
+#personas {
+    background: rgba(128, 128, 128, 0.164);
+}
+#personas a {
+    color: gray;
+}
+/*footer */
+#footer {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    height: 136px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+/*inicio responsive*/ 
+@media (min-width: 500px) {
+
+    @media (min-width: 501px) and (max-width: 768px) {/*Inicio header*/
+
+        header .navbar.bg-claro-menu .container { 
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+        } 
+        
+        header .navbar .container {
+            display: flex;
+            }
+        
+        header img {
+            margin-right: 15px;
+        }
+        header a {
+            margin-right: 10px;
+        } 
+        .navbar-brand {
+            padding-bottom: 0;
+        }
+        .bg-claro-busqueda .form-control {
+            width: 300px;
+        }
+        
+        header .bg-claro-busqueda{
+            background: red;
+           
+        }
+        
+        header .navbar .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        header .form-inline{
+            display: flex;
+            align-items: center;
+        }
+        
+        header .form-control{
+            position: relative;
+            width: 90%;
+            height: 20px;
+            padding: 20px;
+            
+        } 
+        
+        /* CONSULTAS */
+        .navbar .navbar-light .bg-consultas{
+            background: gray;
+        }
+        element.style {
+            background: rgba(168, 167, 167, 0.671);
+        }
+        
+        #consultas .row h5 {
+            font-size: 15px;
+           
+        }
+        .row {
+            padding-top: 15px;
+            justify-content: center;
+        }
+        
+        .consultas2 .row img {
+            float: left;
+            max-width: 20%;
+        }
+        
+        .consultas2 .row p {
+            text-align: right;
+        }
+        
+        .nav-consultas img {
+            max-width: 25%;
+            padding-top: 9px;
+            float: left;
+        }
+        
+        
+        /*Fin header*/
+        
+        
+        /*Celulares*/
+        .mb-3 {
+            background: rgba(104, 102, 102, 0.109);
+        }
+        
+        #celulares .row no-gutters img {
+            float: right;
+            max-width: 100%;
+        }
+        #celulares .row .col-md-6 {
+            float: left;
+            
+        }
+        #celulares p {
+            color: rgb(255, 255, 255);
+            font-size: small;
+            
+        }
+        #celulares  h2 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            
+        }
+        #celulares  .text-muted {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+         #celulares .card-body {
+           box-shadow: 0.5px 0.5px blue;
+           text-align: center;
+           color: #ffffff;
+           background: rgba(24, 95, 187, 0.521);
+           padding: 10px;
+           border-radius: 10px;
+           margin: 10px;
+         }
+        
+         .card-img, .card-img-top {
+            border-top-left-radius: calc(.30rem - 1px);
+            border-top-right-radius: calc(.30rem - 1px);
+            width: 100%;}
+        
+            #celulares .row p {
+                font-size: 18px;
+            }
+        /*Tecnologia*/
+        .mb-3 {
+            background: rgba(104, 102, 102, 0.109);
+        }
+        
+        #tecnologia .row p{
+            font-size: 14px;
+        }
+        #tecnologia .row no-gutters img {
+            float: right;
+            max-width: 100%;
+        }
+        #tecnologia .row .col-md-6 {
+            float: left;
+            
+        }
+        #tecnologia  p {
+            color: rgb(255, 255, 255);
+            font-size: small;
+            
+        }
+        #tecnologia  h2 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            
+        }
+        #tecnologia  .text-muted {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+         #tecnologia .card-body {
+           box-shadow: 0.5px 0.5px blue;
+           text-align: center;
+           color: #ffffff;
+           background: rgba(221, 53, 11, 0.534);
+           padding: 10px;
+           border-radius: 10px;
+           margin: 10px;
+         }
+        
+         .card-img, .card-img-top {
+            border-top-left-radius: calc(.30rem - 1px);
+            border-top-right-radius: calc(.30rem - 1px);
+            width: 100%;}
+        
+            #tecnologia .row p {
+                font-size: 18px;
+            }
+        /* Personas */
+#personas h4 {
+    background: rgba(128, 128, 128, 0.486);
+}
+#personas {
+    background: rgba(128, 128, 128, 0.164);
+}
+#personas a {
+    color: gray;
+}
+        
+        /*footer */
+        #footer {
+            padding: 50px;
+            text-align: center;
+            color: #ffffff;
+            position: relative;
+            height: 136px;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+        }}
+    @media (min-width: 769px) and (max-width: 992x)  {/*Inicio header*/
+
+        header .navbar.bg-claro-menu .container { 
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+        } 
+        
+        header .navbar .container {
+            display: flex;
+            }
+        
+        header img {
+            margin-right: 15px;
+        }
+        header a {
+            margin-right: 10px;
+        } 
+        .navbar-brand {
+            padding-bottom: 0;
+        }
+        .bg-claro-busqueda .form-control {
+            width: 300px;
+        }
+        
+        header .bg-claro-busqueda{
+            background: red;
+           
+        }
+        
+        header .navbar .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        header .form-inline{
+            display: flex;
+            align-items: center;
+        }
+        
+        header .form-control{
+            position: relative;
+            width: 90%;
+            height: 20px;
+            padding: 20px;
+            
+        } 
+        
+        /* CONSULTAS */
+        .navbar .navbar-light .bg-consultas{
+            background: gray;
+        }
+        element.style {
+            background: rgba(168, 167, 167, 0.671);
+        }
+        
+        #consultas .row h5 {
+            font-size: 15px;
+           
+        }
+        .row {
+            padding-top: 15px;
+            justify-content: center;
+        }
+        
+        .consultas2 .row img {
+            float: left;
+            max-width: 20%;
+        }
+        
+        .consultas2 .row p {
+            text-align: right;
+        }
+        
+        .nav-consultas img {
+            max-width: 25%;
+            padding-top: 9px;
+            float: left;
+        }
+        
+        
+        /*Fin header*/
+        
+        
+        /*Celulares*/
+        .mb-3 {
+            background: rgba(104, 102, 102, 0.109);
+        }
+        
+        #celulares .row no-gutters img {
+            float: right;
+            max-width: 100%;
+        }
+        #celulares .row .col-md-6 {
+            float: left;
+            
+        }
+        #celulares p {
+            color: rgb(255, 255, 255);
+            font-size: small;
+            
+        }
+        #celulares  h2 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            
+        }
+        #celulares  .text-muted {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+         #celulares .card-body {
+           box-shadow: 0.5px 0.5px blue;
+           text-align: center;
+           color: #ffffff;
+           background: rgba(24, 95, 187, 0.521);
+           padding: 10px;
+           border-radius: 10px;
+           margin: 10px;
+         }
+        
+         .card-img, .card-img-top {
+            border-top-left-radius: calc(.30rem - 1px);
+            border-top-right-radius: calc(.30rem - 1px);
+            width: 100%;}
+        
+            #celulares .row p {
+                font-size: 18px;
+            }
+        /*Tecnologia*/
+        .mb-3 {
+            background: rgba(104, 102, 102, 0.109);
+        }
+        
+        #tecnologia .row p{
+            font-size: 14px;
+        }
+        #tecnologia .row no-gutters img {
+            float: right;
+            max-width: 100%;
+        }
+        #tecnologia .row .col-md-6 {
+            float: left;
+            
+        }
+        #tecnologia  p {
+            color: rgb(255, 255, 255);
+            font-size: small;
+            
+        }
+        #tecnologia  h2 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            
+        }
+        #tecnologia  .text-muted {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+         #tecnologia .card-body {
+           box-shadow: 0.5px 0.5px blue;
+           text-align: center;
+           color: #ffffff;
+           background: rgba(221, 53, 11, 0.534);
+           padding: 10px;
+           border-radius: 10px;
+           margin: 10px;
+         }
+        
+         .card-img, .card-img-top {
+            border-top-left-radius: calc(.30rem - 1px);
+            border-top-right-radius: calc(.30rem - 1px);
+            width: 100%;}
+        
+            #tecnologia .row p {
+                font-size: 18px;
+            }
+        
+        /* Personas */
+#personas h4 {
+    background: rgba(128, 128, 128, 0.486);
+}
+#personas {
+    background: rgba(128, 128, 128, 0.164);
+}
+#personas a {
+    color: gray;
+}
+        /*footer */
+        #footer {
+            padding: 50px;
+            text-align: center;
+            color: #ffffff;
+            position: relative;
+            height: 136px;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+        }}
+    @media (min-width: 993px) and (max-width: 1200px) {/*Inicio header*/
+
+        header .navbar.bg-claro-menu .container { 
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+        } 
+        
+        header .navbar .container {
+            display: flex;
+            }
+        
+        header img {
+            margin-right: 15px;
+        }
+        header a {
+            margin-right: 10px;
+        } 
+        .navbar-brand {
+            padding-bottom: 0;
+        }
+        .bg-claro-busqueda .form-control {
+            width: 300px;
+        }
+        
+        header .bg-claro-busqueda{
+            background: red;
+           
+        }
+        
+        header .navbar .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        
+        header .form-inline{
+            display: flex;
+            align-items: center;
+        }
+        
+        header .form-control{
+            position: relative;
+            width: 90%;
+            height: 20px;
+            padding: 20px;
+            
+        } 
+        
+        /* CONSULTAS */
+        .navbar .navbar-light .bg-consultas{
+            background: gray;
+        }
+        element.style {
+            background: rgba(168, 167, 167, 0.671);
+        }
+        
+        #consultas .row h5 {
+            font-size: 15px;
+           
+        }
+        .row {
+            padding-top: 15px;
+            justify-content: center;
+        }
+        
+        .consultas2 .row img {
+            float: left;
+            max-width: 20%;
+        }
+        
+        .consultas2 .row p {
+            text-align: right;
+        }
+        
+        .nav-consultas img {
+            max-width: 25%;
+            padding-top: 9px;
+            float: left;
+        }
+        
+        
+        /*Fin header*/
+        
+        
+        /*Celulares*/
+        .mb-3 {
+            background: rgba(104, 102, 102, 0.109);
+        }
+        
+        #celulares .row no-gutters img {
+            float: right;
+            max-width: 100%;
+        }
+        #celulares .row .col-md-6 {
+            float: left;
+            
+        }
+        #celulares p {
+            color: rgb(255, 255, 255);
+            font-size: small;
+            
+        }
+        #celulares  h2 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            
+        }
+        #celulares  .text-muted {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+         #celulares .card-body {
+           box-shadow: 0.5px 0.5px blue;
+           text-align: center;
+           color: #ffffff;
+           background: rgba(24, 95, 187, 0.521);
+           padding: 10px;
+           border-radius: 10px;
+           margin: 10px;
+         }
+        
+         .card-img, .card-img-top {
+            border-top-left-radius: calc(.30rem - 1px);
+            border-top-right-radius: calc(.30rem - 1px);
+            width: 100%;}
+        
+            #celulares .row p {
+                font-size: 18px;
+            }
+        /*Tecnologia*/
+        .mb-3 {
+            background: rgba(104, 102, 102, 0.109);
+        }
+        
+        #tecnologia .row p{
+            font-size: 14px;
+        }
+        #tecnologia .row no-gutters img {
+            float: right;
+            max-width: 100%;
+        }
+        #tecnologia .row .col-md-6 {
+            float: left;
+            
+        }
+        #tecnologia  p {
+            color: rgb(255, 255, 255);
+            font-size: small;
+            
+        }
+        #tecnologia  h2 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            
+        }
+        #tecnologia  .text-muted {
+            color: rgb(0, 0, 0);
+            font-size: 10px;
+        }
+         #tecnologia .card-body {
+           box-shadow: 0.5px 0.5px blue;
+           text-align: center;
+           color: #ffffff;
+           background: rgba(221, 53, 11, 0.534);
+           padding: 10px;
+           border-radius: 10px;
+           margin: 10px;
+         }
+        
+         .card-img, .card-img-top {
+            border-top-left-radius: calc(.30rem - 1px);
+            border-top-right-radius: calc(.30rem - 1px);
+            width: 100%;}
+        
+            #tecnologia .row p {
+                font-size: 18px;
+            }
+        
+        /* Personas */
+#personas h4 {
+    background: rgba(128, 128, 128, 0.486);
+}
+#personas {
+    background: rgba(128, 128, 128, 0.164);
+}
+#personas a {
+    color: gray;
+}
+        /*footer */
+        #footer {
+            padding: 50px;
+            text-align: center;
+            color: #ffffff;
+            position: relative;
+            height: 136px;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+        }}
+
+@media (max-width: 1200px) { 
+ }
+}
